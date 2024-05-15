@@ -1,0 +1,71 @@
+
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: Calibri;
+    padding: 2rem 4rem 2rem 4rem;
+}
+
+
+body.home {
+    background-image: url(assets/mountains-universe-1.png);
+}
+
+body.exploracao {
+    background-image: url(assets/mountains-universe-2.png);
+
+
+}
+
+body.ouniverso {
+    background-image: url(assets/mountains-universe-3.png);
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+nav a{
+    text-decoration: none;
+    color: gray;
+    
+}
+nav a.active {
+    color: white; /* Altere a cor para a cor desejada */
+}
+
+nav .transparent-link {
+    color: transparent; 
+}
+
+h1 {
+    margin-top: 5rem;
+}
+p {
+    width: 50%;
+}
+button {
+    background-color: transparent;
+    color:white;
+    border: 1px solid white; /* Adiciona uma borda sólida branca */
+    border-radius: 10px;
+    width: 12rem;
+    height: 3rem;
+}
+
+.home-content {
+    display: grid;
+    height: 80vh;
+    place-items: center; /* Centraliza os itens horizontalmente */ /* Centraliza os itens verticalmente */
+    /* Define a altura para ocupar toda a altura da viewport */
+}
+.home-content .items-home{
+    display: flex;
+    flex-direction: column; /* Alinha os itens verticalmente */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center;
+    
+}
